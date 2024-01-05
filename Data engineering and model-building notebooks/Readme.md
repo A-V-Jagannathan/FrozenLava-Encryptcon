@@ -5,3 +5,4 @@
 - data-creation-frozenlava.ipynb: The notebook which creates cluster-wise datasets for the classification models that are built.
 - knn-clusterdetect.ipynb: Given a new testdata, using KNN this notebook's model detects the cluster that it belongs to.
 - xgboost-encryptcon.ipynb: The Notebook used to train the XGBoost model.
+- eda-encryptcon.ipynb: The Notebook used to perform EDA on our data.
