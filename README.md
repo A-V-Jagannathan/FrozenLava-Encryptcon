@@ -10,3 +10,9 @@ clustering-frozenlava.ipynb: The notebook which clusters similar customers toget
 data-creation-frozenlava.ipynb: The notebook which creates cluster-wise datasets for the classification models that are built.
 
 knn-clusterdetect.ipynb: Given a new testdata, using KNN this notebook's model detects the cluster that it belongs to.
+
+xgboost-encryptcon.ipynb: The Notebook used to train the XGBoost model.
+
+index.py and tempcoderunner.py: python files used for demonstration of our submission.
+
+model_cluster0.joblib till model_cluster3.joblib: The trained and pickled XGBoost models used for classifying fraudulent/non fraudulent for different clusters. 
