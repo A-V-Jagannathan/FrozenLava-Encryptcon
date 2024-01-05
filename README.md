@@ -23,5 +23,11 @@ This project clusters customers with similar behaviour together, and trains a mo
 - Data engineering and model-building notebooks: Contains the ipynb files used to build models and create data.
 - Dataset: Contains links and description for the data used.
 
+## How to run?
+
+1. Download the trained models, from under the folder **Models**.
+2. Download the demonstration python file, from under the folder **Demonstration**
+3. Place every file under same directory, run index.py and observe the predictions! 
+
 
 
