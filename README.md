@@ -1,7 +1,23 @@
 # FrozenLava-Encryptcon
 Team Frozenlava's submission for the hackathon encryptcon.
 
-# Filename and description
+## Project environment setup
+
+There is no dependency apart from the default jupyter notebook enviroment
+
+## Defining project aim and goal
+
+This project clusters customers with similar behaviour together, and trains a model on the behavior of these customers. Whenever a transaction is made by a customer,
+
+- If a it is a new customer, Based on the customer's detail, he is assigned a cluster. else their cluster is 
+- The model belonging to that cluster, will check whether the transaction look fraudulent or not ( if it is similar to other transactions made by customers belonging to the same cluster, then non fraudulent)
+- This model does NOT prove it is a fraudulent transaction, rather detects abnormal transactions. It must be supplemented with a system which does secondary verification, if the activity looks suspicious.
+
+## Methodology
+
+Our methodology has been discussed better in a brief fashion, in our ppt.
+  
+## Filename and description
 
 data-cleaning-encryptcon.ipynb: The data cleaning notebook which operated on dataset ( https://www.kaggle.com/datasets/shivamb/bank-customer-segmentation) To produce two cleaned files, Customerdata and transaction data.
 
