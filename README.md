@@ -16,18 +16,14 @@ This project clusters customers with similar behaviour together, and trains a mo
 - The model belonging to that cluster, will check whether the transaction look fraudulent or not ( if it is similar to other transactions made by customers belonging to the same cluster, then non fraudulent)
 - This model does NOT prove it is a fraudulent transaction, rather detects abnormal transactions. It must be supplemented with a system which does secondary verification, if the activity looks suspicious.
   
-## Filename and description
+## Filename, Foldername and their description
 
-data-cleaning-encryptcon.ipynb: The data cleaning notebook which operated on dataset ( https://www.kaggle.com/datasets/shivamb/bank-customer-segmentation) To produce two cleaned files, Customerdata and transaction data.
+- Models: Contains the trained models used by our demonstration py files.
+- Demonstration: Contains the py files used for demonstration of our submission.
+- data-cleaning-encryptcon.ipynb: The data cleaning notebook which operated on dataset ( https://www.kaggle.com/datasets/shivamb/bank-customer-segmentation) To produce two cleaned files, Customerdata and transaction data.
+- clustering-frozenlava.ipynb: The notebook which clusters similar customers together. based on this models are built for groups of similar customers for fraudulent transaction detection
+- data-creation-frozenlava.ipynb: The notebook which creates cluster-wise datasets for the classification models that are built.
+- knn-clusterdetect.ipynb: Given a new testdata, using KNN this notebook's model detects the cluster that it belongs to.
+- xgboost-encryptcon.ipynb: The Notebook used to train the XGBoost model.
 
-clustering-frozenlava.ipynb: The notebook which clusters similar customers together. based on this models are built for groups of similar customers for fraudulent transaction detection
 
-data-creation-frozenlava.ipynb: The notebook which creates cluster-wise datasets for the classification models that are built.
-
-knn-clusterdetect.ipynb: Given a new testdata, using KNN this notebook's model detects the cluster that it belongs to.
-
-xgboost-encryptcon.ipynb: The Notebook used to train the XGBoost model.
-
-index.py and tempcoderunner.py: python files used for demonstration of our submission.
-
-model_cluster0.joblib till model_cluster3.joblib: The trained and pickled XGBoost models used for classifying fraudulent/non fraudulent for different clusters. 
