@@ -1,2 +1,2 @@
 ## Filename and description
-index.py and tempcoderunner.py: python files used for demonstration of our submission.
+index.py: python file used for demonstration of our submission.
