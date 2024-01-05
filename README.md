@@ -1,5 +1,5 @@
 # FrozenLava-Encryptcon
-Team Frozenlava's submission for the hackathon encryptcon.
+Team Frozenlava's submission for the 24-hour hackathon, encryptcon.
 
 ## Project environment 
 
@@ -27,7 +27,14 @@ This project clusters customers with similar behaviour together, and trains a mo
 
 1. Download the trained models, from under the folder **Models**.
 2. Download the demonstration python file, from under the folder **Demonstration**
-3. Place every file under same directory, run index.py and observe the predictions! 
+3. Place every file under same directory, run index.py and observe the predictions!
+
+## Images
+![WhatsApp Image 2024-01-05 at 14 40 30_9cf58f56](https://github.com/A-V-Jagannathan/FrozenLava-Encryptcon/assets/98120916/7dcdf1cb-ccda-435b-9f11-0de439abccc6)
+![WhatsApp Image 2024-01-05 at 14 40 59_c0bbc7d7](https://github.com/A-V-Jagannathan/FrozenLava-Encryptcon/assets/98120916/39fd360d-f595-4b2e-aff7-879f6617adc6)
+![WhatsApp Image 2024-01-05 at 14 41 51_f47e7db1](https://github.com/A-V-Jagannathan/FrozenLava-Encryptcon/assets/98120916/b6fcc587-848e-4159-b783-99f398db822a)
+
+
 
 
 
